@@ -1,144 +1,158 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Trevia - Jelajahi Dunia</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-
-  <header>
-    <div class="logo">Trevia</div>
-    <nav>
-      <a href="#beranda">Beranda</a>
-      <a href="#destinasi">Destinasi</a>
-      <a href="#tentang">Tentang</a>
-      <a href="#kontak">Kontak</a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latihan web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="aset.foto/Logo-removebg-preview.png" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex ms-auto">
+            <a class="btn btn-outline-dark me-1" href="#">Beranda</a>
+            <a class="btn btn-outline-dark me-1" href="#">Destinasi</a>
+            <a class="btn btn-outline-dark me-1" href="#">Galeri</a>
+            <a class="btn btn-outline-dark" href="#">Kontak</a>
+          </div>
+        </div>
+      </div>
     </nav>
-  </header>
 
-    <section id="beranda">
-      <div class="beranda-content">
-        <h1>Selamat Datang di Trevia</h1>
-        <p>Jelajahi dunia dengan mudah dan cepa dapatkan pengalaman yang  terbaik.</p>
+    <!-- Hero -->
+    <div class="card">
+      <div class="container">
+        <img src="aset.foto/Banner.jpg" class="card-img-top" alt="..." />
+        <div class="card-body text-center">
+          <h5 class="card-title">Trevia</h5>
+          <p class="card-text">
+           "Destinasi Eksotis, Pengalaman Tak Terlupakan"
+          </p>
+          <a href="#" class="btn btn-success">Pesan Sekarang</a>
+        </div>
       </div>
-    </section>
+    </div>
 
-  <section id="destinasi">
-    <h2>Destinasi Favorit</h2>
-    <div class="destinasi-grid">
-      <div class="destinasi-item">
-        <img src="asetfoto/Bali.jpg" alt="Bali" />
-        <p>Bali</p>
+<!-- Destinasi -->
+<section class="Hero">
+  <div class="container">
+    <div class="Judul text-center mt-5">
+      <h2>Wisata</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card">
+         <img src="aset.foto/Bali.jpg" alt="Bali">
+          <p>Bali</p>
+          <button class="btn btn-success">Pesan</button>
+        </div>
       </div>
-      <div class="destinasi-item">
-        <img src="asetfoto/Raja Ampat.jpg" alt="Raja Ampat" />
-        <p>Raja Ampat</p>
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="aset.foto/Kawah Gunung Bromo.jpg" alt="Kawah Gunung Bromo">
+          <p>Kawah Gunung Bromo</p>
+          <button class="btn btn-success">Pesan</button>
+        </div>
       </div>
-      <div class="destinasi-item">
-        <img src="asetfoto/Pantai.jpg" alt="Pantai Pasir Putih" />
-        <p>Pantai Pasir Putih</p>
+      <div class="col-lg-3">
+        <div class="card">
+         <img src="aset.foto/Raja Ampat.jpg" alt="Raja Ampat">
+          <p>Raja Ampat</p>
+          <button class="btn btn-success">Pesan</button>
+        </div>
       </div>
-      <div class="destinasi-item">
-        <img src="asetfoto/Ranu kumbolo.jpg" alt="Gunung Ranu Kumbolo" />
-        <p>Gunung Ranu Kumbolo</p>
+      <div class="col-lg-3">
+        <div class="card">
+         <img src="aset.foto/Sabana.jpg" alt="Sabana">
+          <p>Sabana</p>
+          <button class="btn btn-success">Pesan</button>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <h2>Destinasi Best Seller</h2>
-    <div class="destinasi-grid">
-      <div class="destinasi-item">
-        <img src="asetfoto/Pulau komodo.jpg" alt="Komodo" />
-        <p>Pulau Komodo</p>
+<!-- Galeri -->
+
+<section class="hero">
+  <div class="container">
+    <div class="Judul text-center mt-5">
+      <h2>Galery</h2>
+    </div>
+    <div>
+      <div class="row">
+      <div class="col-lg-3">
+        <div class="card">
+         <img src="aset.foto/Kawah Gunung Bromo.jpg" alt="">
+        </div>
       </div>
-      <div class="destinasi-item">
-        <img src="asetfoto/Desa Adat wae Rebo.jpg" alt="Desa Adat Wae Rebo (Flores)" />
-        <p>Desa Adat Wae Rebo (Flores)</p>
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="aset.foto/Sabana.jpg" alt="">
+        </div>
       </div>
-      <div class="destinasi-item">
-        <img src="asetfoto/Curug Cinanjur.jpg" alt="Curug Cianjur" />
-        <p>Curug Cianjur</p>
+      <div class="col-lg-3">
+        <div class="card">
+         <img src="aset.foto/Bali.jpg" alt="">
+        </div>
       </div>
-      <div class="destinasi-item">
-        <img src="asetfoto/Hutan Pinus.jpg" alt="Hutan Pinus" />
-        <p>Hutan Pinus</p>
+      <div class="col-lg-3">
+        <div class="card">
+         <img src="aset.foto/Raja Ampat.jpg" alt="">
+        </div>
       </div>
     </div>
-  </section>
+    </div>
+  </div>
+</section>
 
-  <!-- Tentang Kami -->
-  <section id="tentang-kami">
-    <h2>Tentang Trevia</h2>
-    <p>
-      Trevia adalah platform perjalanan digital yang hadir untuk memudahkan Anda merencanakan dan menikmati setiap perjalanan,
-      mulai dari pemesanan tiket pesawat, hotel, hingga berbagai aktivitas liburan — semuanya dalam satu tempat.<br><br>
-      Kami percaya bahwa setiap orang pantas punya pengalaman perjalanan yang menyenangkan. Dengan teknologi yang andal dan
-      dukungan pelanggan yang sigap, Trevia akan selalu ada untuk menemani setiap langkah perjalanan Anda.
-    </p>
-  </section>
-
-<!-- Kontak Kami -->
-  <section id="kontak">
-    <h2>Hubungi Kami</h2>
-    <p style="text-align:center;">Punya pertanyaan atau butuh bantuan? Tim Trevia siap membantu Anda!</p>
-
-    <div class="kontak-wrapper">
-      <div class="kontak-col">
-        <h3>📍 Alamat Kantor</h3>
-        <p>Jl. Sriwangi No 1,Palembang, Indonesia</p>
-
-        <h3>📞 Layanan Pelanggan</h3>
-        <p>0878-9487-5558<br>Senin – Minggu | 08.00 – 22.00 WIB</p>
-
-        <h3>📧 Email</h3>
-        <p><a href="achsanwicaksono81@gmail.com">hello@trevia.co.id</a></p>
-      </div>
-
-      <div class="kontak-col">
-        <h3>💬 Live Chat</h3>
-        <p>Tersedia di aplikasi dan website Trevia</p>
-
-        <h3>🌐 Media Sosial</h3>
-        <a href="https://instagram.com/trevia.id" target="_blank">Instagram: @trevia.id</a>
-        <a href="https://facebook.com/trevia.id" target="_blank">Facebook: Trevia Indonesia</a>
-        <a href="https://twitter.com/trevia_id" target="_blank">X / Twitter: @trevia_id</a>
+<!-- Kontak -->
+ <section id="kontak" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Hubungi Kami</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="5" placeholder="Tulis pesan Anda..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
       </div>
     </div>
+  </div>
+</section>
 
-    <p class="kontak-footer">
-      Kami menghargai setiap masukan Anda.<br>
-      Bersama Trevia, perjalanan Anda lebih mudah dan nyaman!
-    </p>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-wrapper">
-      <div class="footer-col">
-        <h3>Trevia</h3>
-        <p>Solusi perjalanan modern untuk kebutuhan tiket, hotel, dan aktivitas liburan Anda.</p>
-      </div>
 
-      <div class="footer-col">
-        <h4>Menu</h4>
-        <a href="#tentang-kami">Tentang Kami</a>
-        <a href="#kontak">Kontak</a>
-        <a href="#">Layanan</a>
-      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
-      <div class="footer-col">
-        <h4>Ikuti Kami</h4>
-        <a href="https://instagram.com/trevia.id" target="_blank">Instagram</a>
-        <a href="https://facebook.com/trevia.id" target="_blank">Facebook</a>
-        <a href="https://twitter.com/trevia_id" target="_blank">X / Twitter</a>
-      </div>
-    </div>
-    <div class="copyright">
-      &copy; 2025 Trevia. All rights reserved.
-    </div>
-  </footer>
 
-  <script src=\"js/script.js\"></script>
-</body>
+  </body>
 </html>
+
+
+

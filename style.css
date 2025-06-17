@@ -1,0 +1,28 @@
+.navbar-brand img {
+    height: 70px;
+    width: auto;
+    padding: 5px;
+}
+
+.card {
+    border-radius: 50px;
+    border: 2px solid #dbe911;
+    box-shadow: 0 2px 5px black;
+    padding: 20px;
+    
+
+}
+.card img {
+    border-radius: 8%;
+    padding: 2px;
+
+}
+<style>
+  #kontak {
+    background-color: #f8f9fa;
+  }
+
+  #kontak h2 {
+    font-weight: bold;
+  }
+</style>
